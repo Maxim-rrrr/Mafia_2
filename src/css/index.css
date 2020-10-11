@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	font-size: 14px;
+}
+
+body {
+	font-family: 'Noto Serif', serif;
+	font-size: 1rem;
+	background-color: #181818;
+	color: #e3b873;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	width: 85%;
+	max-width: 1256px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	min-height: 100vh;
+}
+
